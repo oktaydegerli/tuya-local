@@ -34,7 +34,7 @@
             },
             "local": {
                 "title": "Tuya Localのデバイスを設定する",
-                "description": "[これらの手順に従ってデバイスIDとローカルキーを見つけてください。](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[これらの手順に従ってデバイスIDとローカルキーを見つけてください。](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "IPアドレスまたはホスト名",
                     "device_id": "デバイスID",
@@ -82,7 +82,7 @@
         "step": {
             "user": {
                 "title": "Tuya Localのデバイスを設定する",
-                "description": "[これらの手順に従ってデバイスIDとローカルキーを見つけてください。](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[これらの手順に従ってデバイスIDとローカルキーを見つけてください。](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "IPアドレスまたはホスト名",
                     "local_key": "ローカルキー",

@@ -34,7 +34,7 @@
             },
             "local": {
                 "title": "Konfigurasikan perangkat Tuya Local Anda",
-                "description": "[Ikuti petunjuk ini untuk menemukan ID perangkat dan kunci lokal.](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[Ikuti petunjuk ini untuk menemukan ID perangkat dan kunci lokal.](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "Alamat IP atau nama hos",
                     "device_id": "ID Perangkat (device_id)",
@@ -82,7 +82,7 @@
         "step": {
             "user": {
                 "title": "Konfigurasikan perangkat Tuya Local Anda",
-                "description": "[Ikuti petunjuk ini untuk menemukan ID perangkat dan kunci lokal.](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[Ikuti petunjuk ini untuk menemukan ID perangkat dan kunci lokal.](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "Alamat IP atau nama hos",
                     "local_key": "Kunci lokal (local_key)",
@@ -140,7 +140,7 @@
                             "e5": "E5: Kesalahan koneksi sensor (Sirkuit terbuka)",
                             "e6": "E6: Sensor rusak (Korsleting)",
                             "e7": "E7: Kesalahan komunikasi papan tampilan",
-                            "e8": "E8: Tangki air terbuka (CN7) atau Nampan penguapan kering (CN3)"                            
+                            "e8": "E8: Tangki air terbuka (CN7) atau Nampan penguapan kering (CN3)"
                         }
                     }
                 }

@@ -395,7 +395,7 @@ class ConfigFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
             log_json(dps),
         )
         _LOGGER.warning(
-            "Include the previous log messages with any new device request to https://github.com/make-all/tuya-local/issues/",
+            "Include the previous log messages with any new device request to https://github.com/oktaydegerli/tuya-local/issues/",
         )
         if types:
             return self.async_show_form(

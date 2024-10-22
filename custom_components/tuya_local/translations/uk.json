@@ -34,7 +34,7 @@
             },
             "local": {
                 "title": "Налаштуйте свій пристрій Tuya Local",
-                "description": "[Дотримуйтеся цих інструкцій, щоб знайти ідентифікатор пристрою та локальний ключ.](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[Дотримуйтеся цих інструкцій, щоб знайти ідентифікатор пристрою та локальний ключ.](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "IP-адреса або ім'я хоста",
                     "device_id": "Ідентифікатор пристрою",
@@ -82,7 +82,7 @@
         "step": {
             "user": {
                 "title": "Налаштуйте свій пристрій Tuya Local",
-                "description": "[Дотримуйтеся цих інструкцій, щоб знайти локальний ключ.](https://github.com/make-all/tuya-local#finding-your-device-id-and-local-key)",
+                "description": "[Дотримуйтеся цих інструкцій, щоб знайти локальний ключ.](https://github.com/oktaydegerli/tuya-local#finding-your-device-id-and-local-key)",
                 "data": {
                     "host": "IP-адреса або ім'я хоста",
                     "local_key": "Локальний ключ (local_key)",
@@ -479,7 +479,7 @@
                     "36h": "36 годин",
                     "48h": "48 годин",
                     "72h": "72 години"
-                }      
+                }
             },
             "temperature_unit": {
                 "name": "Температурна одиниця",
