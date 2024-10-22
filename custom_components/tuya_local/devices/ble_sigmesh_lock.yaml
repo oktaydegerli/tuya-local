@@ -5,37 +5,9 @@ products:
 primary_entity:
   entity: lock
   dps:
-    - id: 1
-      type: string
-      name: unlock_method_create
-      optional: true
-      sensitive: true
-    - id: 2
-      type: string
-      name: unlock_method_delete
-      optional: true
-    - id: 3
-      type: string
-      name: unlock_method_modify
-      optional: true
     - id: 12
       type: integer
       name: unlock_fingerprint
-      persist: false
-      optional: true
-    - id: 13
-      type: integer
-      name: unlock_password
-      persist: false
-      optional: true
-    - id: 14
-      type: integer
-      name: unlock_dynamic
-      persist: false
-      optional: true
-    - id: 15
-      type: integer
-      name: unlock_card
       persist: false
       optional: true
     - id: 19
@@ -43,8 +15,3 @@ primary_entity:
       name: unlock_ble
       persist: false
       optional: true
-    - id: 54
-      type: string
-      name: synch_method
-      optional: true
-      sensitive: true
