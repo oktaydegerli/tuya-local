@@ -48,12 +48,3 @@ primary_entity:
       name: synch_method
       optional: true
       sensitive: true
-secondary_entities:
-  - entity: sensor
-    class: battery
-    category: diagnostic
-    dps:
-      - id: 8
-        type: integer
-        name: sensor
-        unit: "%"
