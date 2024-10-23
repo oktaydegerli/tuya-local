@@ -5,20 +5,6 @@ products:
 primary_entity:
   entity: lock
   dps:
-    - id: 1
-      type: string
-      optional: true
-      sensitive: true
-      name: unlock_method_create
-    - id: 2
-      type: string
-      optional: true
-      sensitive: true
-      name: unlock_method_delete
-    - id: 3
-      type: string
-      optional: true
-      name: unlock_method_modify
     - id: 12
       type: integer
       name: unlock_fingerprint
@@ -33,7 +19,7 @@ primary_entity:
       type: integer
       optional: true
       persist: false
-      name: unlock_dynamic
+      name: unlock_dynamic_pwd
     - id: 15
       type: integer
       optional: true
@@ -44,22 +30,58 @@ primary_entity:
       name: unlock_ble
       persist: false
       optional: true
-    - id: 44
-      type: boolean
-      optional: true
-      name: rtc_lock
-    - id: 54
-      type: string
-      optional: true
-      sensitive: true
-      name: synch_method
-    - id: 70
-      type: string
-      optional: true
-      sensitive: true
-      name: check_code_set
-    - id: 71
-      type: string
-      optional: true
-      sensitive: true
-      name: ble_unlock_check
+secondary_entities:
+  - entity: select
+    translation_key: language
+    category: config
+    dps:
+      - id: 28
+        type: string
+        name: option
+        optional: true
+        mapping:
+          - dps_val: chinese_simplified
+            value: chinese
+          - dps_val: english
+            value: english
+          - dps_val: japanese
+            value: japanese
+          - dps_val: german
+            value: german
+          - dps_val: spanish
+            value: spanish
+          - dps_val: latin
+            value: latin
+          - dps_val: french
+            value: french
+          - dps_val: russian
+            value: russian
+          - dps_val: italian
+            value: italian
+          - dps_val: korean
+            value: korean
+  - entity: number
+    name: Beep volume
+    category: config
+    icon: "mdi:volume-high"
+    dps:
+      - id: 31
+        type: string
+        name: value
+        unit: "%"
+        range:
+          min: 0
+          max: 100
+        mapping:
+          - dps_val: mute
+            step: 33
+            value: 0
+          - dps_val: low
+            step: 33
+            value: 33
+          - dps_val: normal
+            step: 33
+            value: 66
+          - dps_val: high
+            step: 33
+            value: 100
