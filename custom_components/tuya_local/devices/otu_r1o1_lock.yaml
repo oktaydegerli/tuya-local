@@ -27,31 +27,13 @@ primary_entity:
       type: boolean
       optional: true
       name: bluetooth_proximity_feedback
-    - id: 12
-      type: integer
-      optional: true
-      persist: false
-      name: unlock_fingerprint
-    - id: 13
-      type: integer
-      optional: true
-      persist: false
-      name: unlock_password
+
     - id: 14
       type: integer
       optional: true
       persist: false
       name: unlock_dynamic_pwd
-    - id: 15
-      type: integer
-      optional: true
-      persist: false
-      name: unlock_card
-    - id: 19
-      type: integer
-      optional: true
-      persist: false
-      name: unlock_ble
+
     - id: 21
       type: string
       optional: true
@@ -68,10 +50,7 @@ primary_entity:
       optional: true
       sensitive: true
       name: synch_member
-    - id: 44
-      type: boolean
-      optional: true
-      name: rtc_lock
+
     - id: 51
       type: string
       optional: true
@@ -86,11 +65,7 @@ primary_entity:
       optional: true
       sensitive: true
       name: temporary_password_modify
-    - id: 54
-      type: string
-      optional: true
-      sensitive: true
-      name: synch_method
+
     - id: 55
       type: integer
       optional: true
